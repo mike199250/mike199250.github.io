@@ -17,33 +17,43 @@
 				<th>description</th>
 			</tr>
 			<tr>
-				<th class="no">001</th>
-				<th class="pic"> <img src="./pic/001.jpg" alt="Calender Rubik's Cube" class="pic"> </th>
-				<th>
+				<td class="no">001</td>
+				<td class="pic"> <img src="./pic/001.jpg" alt="Calender Rubik's Cube" class="pic"> </td>
+				<td>
 					<h2>斜置日期方塊</h2>
 					<p>高中時看到日期方塊是正著的，因為放在架子上不好看，所以自己重新設計編排方式，計算過排列組合後剛好能容納得下</p>
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th class="no">002</th>
-				<th class="pic"> <img src="./pic/002.png" alt="Rubik's Cube Cross Finding" class="pic"> </th>
+				<td class="no">002</td>
+				<td class="pic"> <img src="./pic/002.png" alt="Rubik's Cube Cross Finding" class="pic"> </td>
 				<!--
-				<th><iframe src="https://mike199250.github.io/practice/p/001_Rubik's_Cube/index.html" width="600px" height="600px"></iframe></th>
+				<td><iframe src="https://mike199250.github.io/practice/p/001_Rubik's_Cube/index.html" width="600px" height="600px"></iframe></td>
 				-->
-				<th>
+				<td>
 					<h2>魔術方塊十字步驟輔助練習</h2>
 					<p>魔術方塊常用CFOP速解法中的十字Cross，因為常常步驟都花到8步，所以用IDA* 演算法來找最少步驟數，然後用 <a href="https://github.com/larspetrus/Roofpig" target="_blank">Roofpig</a> 來做動畫表現</p>
 					<p>雖然也有嘗試實作two stage algorithm來解完整的魔術方塊，但目前計算時間花費過長</p>
 					<a href="https://mike199250.github.io/practice/p/001_Rubik's_Cube/index.html" target="_blank">Demo</a>
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th class="no">003</th>
-				<th class="pic"> <img src="./pic/003.png" alt="2048" class="pic"> </th>
-				<th>
+				<td class="no">003</td>
+				<td class="pic"> <img src="./pic/003.png" alt="2048" class="pic"> </td>
+				<td>
 					<h2>2048</h2>
 					<p>用C++、Qt做出來，後來移植到網頁版，並透過socket.io讓多個頁面統一移動，再結合html5的陀螺儀感測讓手機可以簡單控制</p>
-				</th>
+				</td>
+			</tr>
+			<tr>
+				<td class="no">004</td>
+				<td class="pic"> <img src="./pic/004.png" alt="Lights Out" class="pic"> </td>
+				<td>
+					<h2>Lights Out</h2>
+					<p>關燈遊戲，會同時開關上下左右的燈。 <a href="https://en.wikipedia.org/wiki/Lights_Out_(game)" target="_blank">wiki</a></p>
+					<p>解法部分先枚舉第一排要不要開關的2^N種情況，然後依據上面一排燈的狀態決定下一排是否要開關，最後檢查是否達成目標</p>
+					<a href="https://mike199250.github.io/practice/p/006_Lights_Out/index.html" target="_blank">Demo</a>
+				</td>
 			</tr>
 		</table>
 		<p class="center">tutorial</p>
@@ -54,28 +64,28 @@
 				<th>description</th>
 			</tr>
 			<tr>
-				<th class="no">t001</th>
-				<th class="pic"> <img src="./pic/t001.png" alt="Roll a Ball" class="pic"> </th>
-				<th>
+				<td class="no">t001</td>
+				<td class="pic"> <img src="./pic/t001.png" alt="Roll a Ball" class="pic"> </td>
+				<td>
 					<h2>Roll a Ball</h2>
 					<a href="https://learn.unity.com/project/roll-a-ball-tutorial" target="_blank">tutorial</a>
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th class="no">t002</th>
-				<th class="pic"> <img src="./pic/t002.png" alt="Adventure Game" class="pic"> </th>
-				<th>
+				<td class="no">t002</td>
+				<td class="pic"> <img src="./pic/t002.png" alt="Adventure Game" class="pic"> </td>
+				<td>
 					<h2>Adventure Game</h2>
 					<a href="https://learn.unity.com/project/adventure-game-tutorial" target="_blank">tutorial</a>
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th class="no">t003</th>
-				<th class="pic"> <img src="./pic/t003.png" alt="Unity NavMesh" class="pic"> </th>
-				<th>
+				<td class="no">t003</td>
+				<td class="pic"> <img src="./pic/t003.png" alt="Unity NavMesh" class="pic"> </td>
+				<td>
 					<h2>Unity NavMesh</h2>
 					<a href="https://learn.unity.com/tutorial/unity-navmesh" target="_blank">tutorial</a>
-				</th>
+				</td>
 			</tr>
 		</table>
 	</body>
